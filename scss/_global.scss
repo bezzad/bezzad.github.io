@@ -72,9 +72,34 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
-  .list-inline-item i {
-    &:hover {
-      color: $primary;
+  .list-inline-item {
+    img {
+      line-height: 48px;
+      width: 48px;    
+      height: 48px;
+    }
+    i {
+      &:hover {
+        color: $primary;
+      }
     }
   }
+}
+
+.cold {
+  opacity: .5;
+  filter: grayscale(100%);
+  &:hover  {
+    opacity: 1;
+    filter: none;
+  }
+}
+
+.cblock{
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  color: #333;
+  line-height: 1.2;
 }

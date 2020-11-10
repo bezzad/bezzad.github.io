@@ -1,5 +1,5 @@
 /*!
- * Resume - Resume v5.0.5 (https://github.com/bezzad/bezzad.github.io)
+ * resume v5.0.5 (https://github.com/bezzad/bezzad.github.io)
  * Copyright 2019-2020 Behzad Khosravifar
  * Licensed under MIT (https://github.com/bezzad/bezzad.github.io/blob/master/LICENSE)
  */
@@ -79,8 +79,36 @@ p.lead {
   font-size: 3rem;
 }
 
+.dev-icons .list-inline-item img {
+  line-height: 48px;
+  width: 48px;
+  height: 48px;
+}
+
 .dev-icons .list-inline-item i:hover {
   color: #BD5D38;
+}
+
+.cold {
+  opacity: .5;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.cold:hover {
+  opacity: 1;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.cblock {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #333;
+  line-height: 1.2;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
